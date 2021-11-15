@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Road Rage", cursive;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(76, 170, 115);
+  border-radius: 50%;
+  margin: 1rem;
+  color: #fff;
+}
+.circle p {
+  font-size: 2.5rem;
 }
