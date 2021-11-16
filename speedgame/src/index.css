@@ -39,6 +39,8 @@ button {
   border-radius: 50%;
   margin: 1rem;
   color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(72, 72, 72);
 }
 .circle p {
   font-size: 2.5rem;

@@ -5,7 +5,10 @@ const Circle = (props) => {
     <div
       className={`circle ${props.active ? "active" : ""}`}
       onClick={props.onClick}
-      style={{ backgroundColor: props.color }}
+      style={{
+        backgroundColor: props.color,
+        pointerEvents: props.disabled ? "auto" : "none",
+      }}
     >
       <p>{props.id}</p>
     </div>
