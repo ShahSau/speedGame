@@ -37,7 +37,7 @@
     transform: rotate(360deg);
   }
 }
-.circles {
+/* .circles {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -55,4 +55,4 @@
 }
 .circle p {
   font-size: 2.5rem;
-}
+} */

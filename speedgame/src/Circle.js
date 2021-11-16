@@ -3,7 +3,7 @@ import React from "react";
 const Circle = (props) => {
   return (
     <div
-      className="circle"
+      className={`circle ${props.active ? "active" : ""}`}
       onClick={props.onClick}
       style={{ backgroundColor: props.color }}
     >
