@@ -76,6 +76,7 @@ class App extends Component {
     this.setState({
       gameover: true,
       current: 0,
+      pace: 1500,
     });
   };
   closeHandler = () => {
@@ -83,6 +84,7 @@ class App extends Component {
       gameover: false,
       score: 0,
       rounds: 0,
+      pace: 1500,
       gamestart: false,
     });
   };
@@ -109,6 +111,7 @@ class App extends Component {
           </button>
           <button onClick={this.stopHandler}>Stop</button>
         </div>
+
         {this.state.gameover && (
           <GameOver point={this.state.score} closeHandler={this.closeHandler} />
         )}
